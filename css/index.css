@@ -436,7 +436,7 @@ p{
         justify-content: center;
     }
 }
-@media (max-width:900px){
+@media (max-width:1200px){
     body{
         padding-top: 250px;
         transition: padding-top 0.3s ease;
