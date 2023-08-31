@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21 August SEFC Raka Satya</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+</head>
+<body>
+    <div class="close-nav">
+        <i class="uil uil-align-justify" onclick="closeNav()"></i>
+    </div>
+    <header class=""> 
+        <div class="header-left">
+            <img class="logo" src="assets/logo.png" alt="">
+            <div class="form-name">
+                <form action = "" class="form-nm">
+                    <input type="text" name="" id="usernameInput" placeholder="Username" required>
+                    <button type="submit" onclick="retrieveUsername()">submit</button>
+                </form>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home-anchor">Home</a></li>
+                <li><a href="#profile-anchor">Our Profile</a></li>
+                <li><a href="#facilitation-anchor">Achievement</a></li>
+                <li><a href="#contact-anchor">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home-anchor"></div>
+    <section id="home">
+        <img src="assets/banner-bg1.jpg" alt="" class="bg autoSlide">
+        <img src="assets/banner-bg2.png" alt="" class="bg autoSlide">
+        <img src="assets/auditorium.jpg" alt="" class="bg autoSlide">
+        <div class="contain">
+            <div class="welcome">
+                <h1>Hi <div class="username"></div>, Welcome To Ahmad Dahlan University</h1>
+                <h5>RevoU SEFC Mini Project</h5>
+            </div>
+        </div>
+    </section>
+    <div id="profile-anchor"></div>
+    <section id="profile">
+        <div class="about-us">
+            <h1>About Us</h1>
+            <div class="content">
+                <div class="detail">
+                    <h2>We are one of the best private university</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                        natoque et magnis dis parturient montes, nascetur 
+                        ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                        eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
+                         pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                         In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+                         Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+                         Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate 
+                         eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, 
+                         eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, 
+                         feugiat a,
+                    </p>
+                </div>
+                <img src="assets/auditorium.jpg" alt="">
+            </div>
+        </div>
+        <div class="vnm">
+            <h1>Vision & Mission</h1>
+            <div class="detail">
+                <h2>Vision</h2>
+                <p>
+                    The vision of UAD is to be an excellent and innovative 
+                    university that integrates Islamic values and serves the 
+                    interests of the nation and the people.
+                </p>
+                <h2>Mission</h2>
+                <ul>
+                    <li>implement Al-Islam and Muhammadiyah (AIK) values in all aspects of its activities;</li>
+                    <li>advance science, technology and art through education, research and community service;</li>
+                    <li>establish and develop cooperation and collaboration at the local, national and international levels; and</li>
+                    <li>organize good university governance.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div id="facilitation-anchor"></div>
+    <section id="facilitation">
+        <h1>Our Facilities</h1>
+        <div class="facilities">
+            <div class="facility">
+                <img src="assets/professional_teacher.jpg" alt="">
+                <p class="facility-title">Professional Teacher</p>
+            </div>
+            <div class="facility">
+                <img src="assets/sports_field.jpeg" alt="">
+                <p class="facility-title">Sports Field</p>
+            </div>
+            <div class="facility">
+                <img src="assets/classroom.jpg" alt="">
+                <p class="facility-title">classroom</p>
+            </div>
+        </div>
+    </section>
+    <div id="contact-anchor"></div>
+    <section id="contact">
+        <h1>Message Us</h1>
+        <div class="contain-contact">
+            <table class ="form-tb">
+                <form action="" class="form-inquiries">
+                    <tr>
+                        <td><label for="name">Nama</label></td>
+                        <td class="colon">:</td>
+                        <td><input type="text" name="name" id="nameInput" placeholder="Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td class="colon">:</td>
+                        <td><input type="email" name="birth-date" id="emailInput" placeholder="username@email.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pNumber">Phone Number</label></td>
+                        <td class="colon">:</td>
+                        <td><input type="number" name="" id="pNumberInput"></td>
+                    </tr>
+                    <tr>
+                        <td class="message"><label for="message">Pesan</label></td>
+                        <td class="message colon">:</td>
+                        <td><textarea name="" id="messageInput" cols="30" rows="5" placeholder="Pesan"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="message-submit"><button type="submit" onclick="retrieveMessage()">Submit</button></td>
+                    </tr>
+                </form>
+            </table>
+            <div class="contain-message">
+                <div class="inquiries">
+                    <div class="time">
+                        <h5>Current Time</h5><h5> : </h5><p class="date"></p>
+                    </div>
+                    <div class="input-detail">
+                        <div class="input-item">
+                            <h5>Nama</h5><h5> : </h5><p class="name"></p>
+                        </div>
+                        <div class="input-item">
+                            <h5>Email</h5><h5> : </h5><p class="email"></p>
+                        </div>
+                        <div class="input-item">
+                            <h5>Phone Number</h5><h5> : </h5><p class="pNumber"></p>
+                        </div>
+                        <div class="input-item">
+                            <h5>Pesan</h5><h5> : </h5><p class="msg"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Created by Raka Satya Prasasta</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
