@@ -109,7 +109,6 @@ header .header-left{
     margin: 100px;
     color: #ffffff;
     animation: fadeInBottom 1s ease;
-    visibility: hidden;
 }
 .contain .welcome.show{
     visibility: visible;
